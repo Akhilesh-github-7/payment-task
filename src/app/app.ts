@@ -1,7 +1,10 @@
 import { Component, signal } from '@angular/core';
+import { PaymentsComponent } from './payments/payments';
+
 
 @Component({
-  imports: [],
+  standalone: true,
+  imports: [PaymentsComponent],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
